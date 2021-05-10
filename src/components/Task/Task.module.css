@@ -1,0 +1,42 @@
+.task {
+  background-image: linear-gradient(to bottom, rgb(186, 215, 224) 0%, rgb(128, 117, 128) 100%);
+  margin:50px;
+  text-align: center;
+  width: 250px;
+  height: 350px;
+  color: rgb(143, 86, 86);
+  border-radius: 5px;
+  position: relative;
+  word-break: break-word;
+}
+.task:hover {
+  transform: scale(1.05);
+}
+
+.checked {
+  opacity: 0.7;
+}
+
+.taskSpan {
+  color: brown;
+}
+
+.button_rigt {
+  width: 40px;
+  height: 40px;
+  color: rgb(141, 141, 141);
+  border: none;
+  border-radius: 5%;
+  overflow: hidden;
+  font-size: larger;
+  cursor: pointer;
+}
+.button_rigt:hover {
+  background-color:rgb(187, 187, 187);
+}
+.div_button_rigt {
+  margin-left: 195px;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 1;
+}

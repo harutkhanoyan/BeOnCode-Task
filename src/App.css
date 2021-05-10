@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.img {
+  width: 250px;
+  height: 450px;
+}
+
+.card.active {
+  background-color: rgb(185, 231, 206);
+}
+
+h1 {
+  text-align: center;
+}
+.divInput{
+  text-align: center;
+}
+Col {
+  width: 200px;
+}
+
+.task-wrapper {
+  display: flex;
+}
+
